@@ -39,7 +39,7 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
 }
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -48,7 +48,9 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
     <title>Login</title>
 </head>
 <body>
-    <h1>Acesse sua conta</h1>
+
+<div id="login">
+<h1>Acesse sua conta</h1>    
     <form action="" method="POST">
         <p>
             
@@ -58,10 +60,12 @@ if(isset($_POST['email']) || isset($_POST['senha'])) {
             
             <input type="password" name="senha" placeholder="Senha">
         </p>
-        <p>
+        <div>
             <button type="submit">Entrar</button>
             <p>Ainda não tem uma Conta?<a href="cadastro.php">Crie Uma</a></p>
 
+
+</div>
         </p>
     </form>
 </body>

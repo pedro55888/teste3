@@ -1,0 +1,33 @@
+body{
+    background-image: url(fundo.jpeg);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white
+}
+
+#login{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-top:50px
+}
+
+input{
+    border-radius: 20px;
+    height: 40px;
+    width: 300px;
+    font-size: 20px;
+}
+
+button{
+    border-radius: 20px;
+    cursor: pointer;
+
+
+}
+
+a{
+    text-decoration:none;
+    color:#BB1C83
+
+}
